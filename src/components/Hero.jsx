@@ -74,7 +74,8 @@ const Hero = () => {
       },
     });
   });
-  const getVideoSource = (index) => `videos/hero-${index}.mp4`;
+  const getVideoSource = (index) =>
+    `https://res.cloudinary.com/duco5nf30/video/upload/v1739484185/zentry/hero-${index}.mp4`;
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
       {isLoading && (
